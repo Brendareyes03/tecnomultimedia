@@ -1,3 +1,4 @@
+// https://youtu.be/1R6Qng7jA8w
 let imagenes = [];
 let juego;
 let pantallaInicio = true; 
