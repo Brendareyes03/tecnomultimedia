@@ -1,6 +1,6 @@
 let imagenes = [];
 let juego;
-let pantallaInicio = true; // Variable para controlar la pantalla de inicio
+let pantallaInicio = true; 
 let tiempoInicioJuego;
 
 function preload() {
@@ -15,7 +15,7 @@ function preload() {
 function setup() {
   createCanvas(400, 400);
   juego = new Juego();
-  tiempoInicioJuego = millis(); // Guardamos el tiempo actual en milisegundos
+  tiempoInicioJuego = millis(); 
 }
 
 function draw() {
@@ -34,8 +34,8 @@ function mostrarPantallaInicio() {
 
 function keyPressed() {
   if (pantallaInicio) {
-    pantallaInicio = false; // Cambiar a pantalla de juego
-    tiempoInicioJuego = millis(); // Reiniciar el tiempo para el juego
+    pantallaInicio = false; 
+    tiempoInicioJuego = millis(); 
   } else {
     juego.keyPressed();
   }
