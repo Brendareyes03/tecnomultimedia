@@ -29,7 +29,7 @@ class Juego {
         }
       }
       
-if (millis() - this.tiempoInicio > 12000 && !this.juegoTerminado) {        // Si el tiempo límite se alcanza y el jugador no ha perdido, muestra "Ganaste"
+if (millis() - this.tiempoInicio > 12000 && !this.juegoTerminado) {        
         this.juegoTerminado = true;
       }
 
